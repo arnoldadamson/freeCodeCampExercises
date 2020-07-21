@@ -6,6 +6,71 @@
     <title>SurveyForm</title>
 </head>
 <body>
-    
+    <!--Header-->
+    <header>
+        <h1 id="title">Car leasing</h1>
+        <p id="description">Need a car? You have come to the right place!</p>
+    </header>
+    <!--Main-->
+    <main>
+        <form id="survey-form" action="">
+            <div id="personalData">
+                <!--Name/Email/Number-->
+                <label for="name" id="name-label">Name</label>
+                <input type="text" id="name" placeholder="Enter your Name" required>
+             
+                <label for="email" id="email-label" id="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+            
+                <label for="age" id="number-label">Age</label>
+                <input type="number" name="age" id="number"placeholder="Age" min="18" max="100">
+                 
+                <!--Dropdown-->
+                <fieldset>
+                    <legend>Choose your car brand</legend>
+                        <select id="dropdown"> 
+                            <option value="bmw">Bmw</option>
+                            <option value="audi">Audi</option>
+                            <option value="toyota">Toyota</option>
+                            <option value="mazda">Mazda</option>
+                            <option value="ford">Ford</option>
+                        </select>
+                </fieldset>
+                <!--Radio Buttons type=radio/checkbox-->
+                <fieldset>
+                    <legend>What do you look for</legend>
+                    <label>Used car</label>
+                    <input type="radio" name="carType" value="used">
+
+                    <label>New car</label>
+                    <input type="radio" name="carType" value="new car">
+
+                    <label>Classic car</label>
+                    <input type="radio" name="carType" value="classic">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Choose fuel type</legend>
+                    <label>Gas</label>
+                    <input type="checkbox" name="fuel" value="gas">
+                    <label>Disel</label>
+                    <input type="checkbox" name="fuel" value="disel">
+                    <label>Turbo Disel</label>
+                    <input type="checkbox" name="fuel" value="tdi">
+                    <label>Electric</label>
+                    <input type="checkbox" name="fuel" value="electric">
+                </fieldset>
+
+                
+                <!--textarea-->
+                    <p>If you have anything do it here</p>
+                    <textarea name="story" id="" cols="40" rows="5"></textarea>
+                
+            </div>
+
+            <button type="submit" id="submit">Submit</button>
+        </form>
+
+    </main>
 </body>
 </html>
