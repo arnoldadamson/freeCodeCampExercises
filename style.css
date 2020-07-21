@@ -1,0 +1,39 @@
+
+body{
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+}
+
+#image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin:0 auto;
+
+}
+
+#img-div{
+    background-color: silver;
+}
+ h1{
+     text-align: center;
+     font-size: 4em;
+ }
+
+ h3{
+    font-size: 2em;
+ }
+ #img-caption{
+     margin: 10px;
+     text-align: center;
+ }
+
+ #tribute-info{
+     display: grid;
+     justify-content: center;
+ }
+
+footer{
+    text-align: center;
+}
