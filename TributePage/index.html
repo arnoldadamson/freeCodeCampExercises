@@ -1,39 +1,55 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header id="hd">
+        <h1>My lovely animals</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, porro?</p>
+    </header>
 
- <html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Tribute Page</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-       <main id="main">
-        <h1 id="title">My lovely animals</h1>
-        <figure id="img-div">
-            <img id="image" src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="Picture of my first cat">
-            <figcaption id="img-caption">Say hello to my lovely cat and hes yellow scarf</figcaption>
-        </figure>
-        <section id="tribute-info">
+    <main>
+        <div id="catPicture">
+            <figure>
+                <img id="image"
+                 src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+                  alt="Picture of my first cat">
+                    <figcaption id="img-caption">
+                       hello <br> this is figcaption
+                    </figcaption>
+            </figure>
+                
+        </div>
+        <section>
             <h3>Things that my cat loves to do</h3>
-            <ul id="first-ul">
-                <li>Sleeping</li>
-                <li>Playng</li>
-                <li>Hunting</li>
-                <li>Sleeping</li>
-            </ul>
-            
+            <div id="columns">
+                <ul id="firstList">
+                    <li>Sleeping</li>
+                    <li>Playng</li>
+                    <li>Hunting</li>
+                    <li>Sleeping</li>
+                </ul>
+                <ul id="secondList">
+                    <li>Sleeping</li>
+                    <li>Playng</li>
+                    <li>Hunting</li>
+                    <li>Sleeping</li>
+                </ul>
+            </div>
+
         </section>
-        <footer> 
-            <h4>If you like to see more lovely cats then visit
-                 <a id="tribute-link" href="#" target="_blank" rel="noopener noreferrer">" Unsplash Website "</a>
-                for more pictures </h4>
-            
-        </footer>
-       </main>
-        
-        <script src="" async defer></script>
-    </body>
+
+    </main>
+
+    <footer>
+        <h4>If you like to see more lovely cats then visit
+            <a id="tribute-link" href="#" target="_blank" rel="noopener noreferrer">" Unsplash Website "</a>
+           for more pictures </h4>
+    </footer>
+</body>
 </html>
