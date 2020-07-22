@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,12 +12,61 @@
     <header>
       <h1 id="title">Car leasing</h1>
       <p id="description">Need a car? You have come to the right place!</p>
+=======
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car leasing for private clients</title>
+</head>
+<body>
+    <header>
+        <h1 id="title">Car leasing for private clients</h1>
+        <p id="description">Need a car? You have come to the right place!</p>
+>>>>>>> ded0eb4ac6ff43e68515e8cecb41d2ff558ae4d1
     </header>
-    <!--Main-->
     <main>
+<<<<<<< HEAD
       <form id="survey-form" action="">
         <div id="personalData">
           <!--Name/Email/Number-->
+=======
+        <div class="mainDiv">
+            <form>
+                <div class="personalData">
+
+                    <div class="name-email">
+                        <label for="name" id="name-label">Name</label>
+                        
+                        <input type="text" id="name" placeholder="Enter your Name" required>
+                        
+                        <label for="email" id="email-label" id="email">Email</label>
+                        
+                        <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+                    </div>
+                    <div class="age">
+                        <label for="age" id="number-label">Age</label>
+                 
+                        <input type="number" name="age" id="number"placeholder="Age" min="18" max="100">
+                    </div>
+                </div>
+                <fieldset>
+                        <legend>Choose your car brand</legend>
+                        <select id="dropdown"> 
+                            <option value="bmw">Bmw</option>
+                            <option value="audi">Audi</option>
+                            <option value="toyota">Toyota</option>
+                            <option value="mazda">Mazda</option>
+                            <option value="ford">Ford</option>
+                        </select>
+                 </fieldset>
+
+                 <fieldset>
+                    <legend>What do you look for</legend>
+                    <label>Used car</label>
+                    <input type="radio" name="carType" value="used">
+>>>>>>> ded0eb4ac6ff43e68515e8cecb41d2ff558ae4d1
 
           <label for="name" id="name-label">Enter your name</label>
           <input type="text" id="name" placeholder="Enter your Name" required />
@@ -42,6 +92,7 @@
             max="100"
           />
 
+<<<<<<< HEAD
           <!--Dropdown-->
           <fieldset>
             <legend>Choose your car brand</legend>
@@ -84,6 +135,19 @@
           <button type="submit" id="submit">Submit</button>
         </div>
       </form>
+=======
+                
+                <!--textarea-->
+                <div class="comments">
+                    <p>Got any comments ?</p>
+                    <textarea name="story" id="" cols="40" rows="5"></textarea>
+                    <button type="submit" id="submit">Submit</button>
+                </div>
+
+
+            </form>
+        </div>
+>>>>>>> ded0eb4ac6ff43e68515e8cecb41d2ff558ae4d1
     </main>
   </body>
 </html>

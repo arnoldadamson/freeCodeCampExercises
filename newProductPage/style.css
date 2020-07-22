@@ -1,0 +1,43 @@
+header {
+  display: flex;
+}
+
+#header-img {
+  max-width: 100px;
+}
+
+#nav-bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  position: fixed;
+}
+
+ul {
+  list-style: none;
+}
+main {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.productInfo {
+  display: flex;
+}
+
+#productVideo {
+  flex: 1;
+}
+
+#productText {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 600px) {
+  body {
+    background-color: pink;
+  }
+}

@@ -1,39 +1,91 @@
 
 body{
-    font-family: monospace;
+    max-width: 80%;
+    margin: 10px auto;
+    border: 2px black;
+    border-style: double;
+    font-family: 'Acme', sans-serif;
+    background-color: cornsilk;
+    -webkit-box-shadow: 15px 10px 5px -1px rgba(0,0,0,0.34);
+    -moz-box-shadow: 15px 10px 5px -1px rgba(0,0,0,0.34);
+    box-shadow: 15px 10px 5px -1px rgba(0,0,0,0.34);
+    
+    
+}
+
+#hd {
+    text-align: center;
+    background-color: goldenrod;
+}
+
+#catPicture {
+    max-width: 50%;
+    margin: 0 auto;
+
+
+ 
+}
+
+
+figure{
     display: flex;
-    justify-content: center;
+    margin: 0 auto;
+    -webkit-box-shadow: 15px 10px 5px -1px rgba(0,0,0,0.34);
+    -moz-box-shadow: 15px 10px 5px -1px rgba(0,0,0,0.34);
+    box-shadow: 15px 10px 5px -1px rgba(0,0,0,0.34);
+    background-color: gainsboro;
+    
 }
 
-#image{
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin:0 auto;
-
+figcaption{
+    flex: 1;
+    margin: auto;
+    text-align: center;
+    font-size: 26px;
 }
 
-#img-div{
-    background-color: silver;
+img{
+    max-width: 40%;
+    flex: 2;
 }
- h1{
-     text-align: center;
-     font-size: 4em;
- }
 
- h3{
-    font-size: 2em;
- }
- #img-caption{
-     margin: 10px;
-     text-align: center;
- }
+h3{
+    text-align: center;
+}
 
- #tribute-info{
-     display: grid;
-     justify-content: center;
- }
+#columns {
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+    background-color: gainsboro;
+    -webkit-box-shadow: 15px 10px 5px -1px rgba(0,0,0,0.34);
+    -moz-box-shadow: 15px 10px 5px -1px rgba(0,0,0,0.34);
+    box-shadow: 15px 10px 5px -1px rgba(0,0,0,0.34);
+    
+    
+}
+
+
+#firstList{
+    flex:1;
+    order: 2;
+    margin: auto;
+}
+#secondList{
+    flex:1;
+    order: 1;
+    
+}
 
 footer{
     text-align: center;
+}
+
+p{
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+section{
+    background-color: goldenrod;
 }

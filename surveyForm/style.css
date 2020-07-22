@@ -1,0 +1,85 @@
+html { 
+    background: url(https://images.unsplash.com/photo-1574617977110-f8efaeae9157?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.2em;
+  }
+
+body{
+    max-width: 70%;
+    margin: 0 auto;
+
+    
+}   
+
+header{
+
+    text-align: center;
+}
+ 
+
+ .mainDiv{
+
+     max-width: 50%;
+     padding: 20px;
+     margin: 0 auto;
+     background-color: whitesmoke;
+     opacity: 0.9;
+     border-radius: 38px 38px 38px 38px;
+     -moz-border-radius: 38px 38px 38px 38px;
+     -webkit-border-radius: 38px 38px 38px 38px;
+     border: 0px solid #000000;
+     
+     
+ }
+
+ .personalData{
+
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     
+ 
+ }
+
+ .name-email{
+
+     display: flex;
+     flex-direction: column;
+     padding: 5px;
+
+ }
+
+ .age{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-top: -10px;
+ }
+
+ fieldset{
+    margin-top: 10px;
+     padding: 10px;
+ }
+
+.comments{
+    display: flex;
+    flex-direction: column;
+
+     padding: 15px;
+ }
+
+ label{
+     padding-bottom: 5px;
+     padding-top: 5px;
+ }
+
+ button{
+     margin-top: 10px;
+     padding: 10px;
+     background-color: skyblue;
+
+ }
