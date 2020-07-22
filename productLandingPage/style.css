@@ -1,0 +1,129 @@
+body{
+    max-width: 80%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    back
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 120px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+#nav-items{
+    text-align: center;
+    margin-bottom: 2em;
+
+}
+
+#mainDiv{
+
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    -webkit-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#video{
+    padding: 10px;
+    flex: 1;
+}
+
+#productInfo{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#info{
+
+    flex: 1;
+}
+
+
+
+#email{
+    width: 50%;
+}
+
+#formDiv{
+    margin-bottom: 1em;
+
+}
+
+button{
+    background-color: rgb(235, 29, 29);
+    color: white;
+    border-radius: 66px 66px 66px 66px;
+    -moz-border-radius: 66px 66px 66px 66px;
+    -webkit-border-radius: 66px 66px 66px 66px;
+    border: 0px solid #000000;
+    padding: 1em;
+    margin-left: 25px;
+}
+
+.nav-link{
+    display: inline;
+    padding: 15px;
+    margin-left: 20px;
+    background-color: rgb(235, 29, 29);
+    border-radius: 66px 66px 66px 66px;
+    -moz-border-radius: 66px 66px 66px 66px;
+    -webkit-border-radius: 66px 66px 66px 66px;
+    border: 0px solid #000000;
+}
+ a{
+     text-transform: uppercase;
+     text-decoration: none;
+     color: white;
+     font-family: 'Roboto', sans-serif;
+     font-size: 1.2em;
+
+ }
+ 
+
+.cards {
+
+ display: flex;
+ justify-content: space-evenly;
+ margin-top: 3em;
+ flex-wrap: wrap;
+    
+}
+
+
+ .lisainfo{
+     padding-top: 30px;
+     margin-bottom: 10px;
+     text-decoration: none;
+ }
+
+ .card{
+     flex-basis: 20%;
+     height: 200px;
+     background-color: rgb(235, 29, 29);
+     border-radius: 66px 66px 66px 66px;
+     -moz-border-radius: 66px 66px 66px 66px;
+     -webkit-border-radius: 66px 66px 66px 66px;
+     border: 0px solid #000000;
+     color: white;
+     webkit-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 9px 10px 5px 0px rgba(0,0,0,0.75);
+     
+ }
+ 
+ .card p {
+     text-align: center;
+     padding: 1em;
+ }
